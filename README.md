@@ -3,7 +3,7 @@
 # Abstract
 
 GTPBD (Global Terraced Parcel and Boundary Dataset) is the first fine-grained benchmark dataset for agricultural parcel extraction in global terraced regions. Unlike previous datasets focused on regular, flat farmlands, GTPBD specifically addresses complex terrain types, providing rich annotations and multi-task evaluation protocols for semantic segmentation, edge detection, parcel extraction, and domain adaptation.
-![Overview of GTPBD Dataset](img/terrace_distribution.pdf)
+![Overview of GTPBD Dataset](img/梯田分布图.png)
 # Highlights
 
 * **Global Scope**: 24,238 high-resolution images from China, Vietnam, Tunisia, Ethiopia, Mexico, Peru, and more.
@@ -19,12 +19,12 @@ GTPBD (Global Terraced Parcel and Boundary Dataset) is the first fine-grained be
   * Edge Detection
   * Agricultural Parcel Extraction
   * Unsupervised Domain Adaptation (UDA)
-
+![Overview of GTPBD Dataset](img/数据集对比图.png)
 # Dataset Structure
-
+![Overview of GTPBD Dataset](img/统计图.png)
 GTPBD(Each image is a 512x512 crop collected from 0.1m-1m resolution sources (Google Earth, GF-2))  
 ├──images/mask_labels/boundary_labels/parcel_labels  
-│   ├── test [0 个文件]  
+│   ├── test
 │   │   ├── Central China  
 │   │   ├── East China  
 │   │   ├── North China  
@@ -33,7 +33,7 @@ GTPBD(Each image is a 512x512 crop collected from 0.1m-1m resolution sources (Go
 │   │   ├── Rest of the world  
 │   │   ├── South China  
 │   │   ├── Southwest China  
-│   ├── train [0 个文件]  
+│   ├── train
 │   │   ├── Central China  
 │   │   ├── East China  
 │   │   ├── North China  
@@ -42,7 +42,7 @@ GTPBD(Each image is a 512x512 crop collected from 0.1m-1m resolution sources (Go
 │   │   ├── Rest of the world  
 │   │   ├── South China  
 │   │   ├── Southwest China  
-│   ├── val [0 个文件]  
+│   ├── val
 │   │   ├── Central China  
 │   │   ├── East China  
 │   │   ├── North China  
@@ -83,7 +83,7 @@ GTPBD(Each image is a 512x512 crop collected from 0.1m-1m resolution sources (Go
   * GTC (Total Classification Error)
 
 ### 4. Unsupervised Domain Adaptation (UDA)
-
+![Overview of GTPBD Dataset](img/UDA各域展示.png)
 * **Domains**: South (S), North (N), Global (G)
 * **Transfers**: S → N, G → S, etc.
 * **Methods**: Source Only, FDA, DAFormer, HRDA, PiPa
