@@ -25,6 +25,7 @@ GTPBD (Global Terraced Parcel and Boundary Dataset) is the first fine-grained be
 GTPBD(Each image is a 512x512 crop collected from 0.1m-1m resolution sources (Google Earth, GF-2))  
 ├──images/mask_labels/boundary_labels/parcel_labels  
 │   ├── test
+
 │   │   ├── Central China  
 │   │   ├── East China  
 │   │   ├── North China  
@@ -34,6 +35,7 @@ GTPBD(Each image is a 512x512 crop collected from 0.1m-1m resolution sources (Go
 │   │   ├── South China  
 │   │   ├── Southwest China  
 │   ├── train
+
 │   │   ├── Central China  
 │   │   ├── East China  
 │   │   ├── North China  
@@ -43,6 +45,7 @@ GTPBD(Each image is a 512x512 crop collected from 0.1m-1m resolution sources (Go
 │   │   ├── South China  
 │   │   ├── Southwest China  
 │   ├── val
+
 │   │   ├── Central China  
 │   │   ├── East China  
 │   │   ├── North China  
