@@ -3,7 +3,7 @@
 # Abstract
 
 GTPBD (Global Terraced Parcel and Boundary Dataset) is the first fine-grained benchmark dataset for agricultural parcel extraction in global terraced regions. Unlike previous datasets focused on regular, flat farmlands, GTPBD specifically addresses complex terrain types, providing rich annotations and multi-task evaluation protocols for semantic segmentation, edge detection, parcel extraction, and domain adaptation.
-
+![Overview of GTPBD Dataset](img/terrace_distribution.pdf)
 # Highlights
 
 * **Global Scope**: 24,238 high-resolution images from China, Vietnam, Tunisia, Ethiopia, Mexico, Peru, and more.
