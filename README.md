@@ -33,6 +33,7 @@ GTPBD(Each image is a 512x512 crop collected from 0.1m-1m resolution sources (Go
 │   │   ├── Rest of the world  
 │   │   ├── South China  
 │   │   ├── Southwest China  
+
 │   ├── train
 
 │   │   ├── Central China  
@@ -43,6 +44,7 @@ GTPBD(Each image is a 512x512 crop collected from 0.1m-1m resolution sources (Go
 │   │   ├── Rest of the world  
 │   │   ├── South China  
 │   │   ├── Southwest China  
+
 │   ├── val
 
 │   │   ├── Central China  
