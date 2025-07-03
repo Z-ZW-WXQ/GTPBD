@@ -6,7 +6,7 @@ GTPBD (Global Terraced Parcel and Boundary Dataset) is the first fine-grained be
 ![Overview of GTPBD Dataset](img/梯田分布图.png)
 # Highlights
 
-* **Global Scope**: 24,238 high-resolution images from China, Vietnam, Tunisia, Ethiopia, Mexico, Peru, and more.
+* **Global Scope**: 47,537 high-resolution images from China, Vietnam, Tunisia, Ethiopia, Mexico, Peru, and more.
 * **Terraced Focus**: Over 200,000 annotated terraced parcels, including mountainous, shadow-occluded, and irregular field structures.
 * **Multi-level Labels**:
 
@@ -60,7 +60,7 @@ GTPBD(Each image is a 512x512 crop collected from 0.1m-1m resolution sources (Go
 # Statistics
 
 * **Geographic Coverage**: 7 major zones in China + global transcontinental regions
-* **Area Covered**: 593 km² of annotated terraces
+* **Area Covered**: 1010 km² of annotated terraces
 * **Label Diversity**:
 
   * 3-level labels (mask, boundary, parcel)
