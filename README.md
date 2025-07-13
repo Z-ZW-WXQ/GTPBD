@@ -60,7 +60,7 @@ GTPBD(Each image is a 512x512 crop collected from 0.1m-1m resolution sources (Go
 # Statistics
 
 * **Geographic Coverage**: 7 major zones in China + global transcontinental regions
-* **Area Covered**: 1010 km² of annotated terraces
+* **Area Covered**: 885 km² of annotated terraces
 * **Label Diversity**:
 
   * 3-level labels (mask, boundary, parcel)
