@@ -106,7 +106,7 @@ Croissant metadata is available for NeurIPS submission validation.
 # Contact & License
 
 * Maintainer: Zhiwei Zhang ([HuggingFace Profile](https://huggingface.co/wxqzzw))
-* License: [Apache 2.0](https://choosealicense.com/licenses/apache-2.0/)
+* License: cc-by-nc-4.0
 
 # Acknowledgements
 
