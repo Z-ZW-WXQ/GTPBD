@@ -22,40 +22,7 @@ GTPBD (Global Terraced Parcel and Boundary Dataset) is the first fine-grained be
 ![Overview of GTPBD Dataset](img/数据集对比图.png)
 # Dataset Structure
 ![Overview of GTPBD Dataset](img/统计图.png)
-GTPBD(Each image is a 512x512 crop collected from 0.1m-1m resolution sources (Google Earth, GF-2))  
-├──images/mask_labels/boundary_labels/parcel_labels  
-│   ├── test
-
-│   │   ├── Central China  
-│   │   ├── East China  
-│   │   ├── North China  
-│   │   ├── Northeast China  
-│   │   ├── Northwest China  
-│   │   ├── Rest of the world  
-│   │   ├── South China  
-│   │   ├── Southwest China  
-
-│   ├── train
-
-│   │   ├── Central China  
-│   │   ├── East China  
-│   │   ├── North China  
-│   │   ├── Northeast China  
-│   │   ├── Northwest China  
-│   │   ├── Rest of the world  
-│   │   ├── South China  
-│   │   ├── Southwest China  
-
-│   ├── val
-
-│   │   ├── Central China  
-│   │   ├── East China  
-│   │   ├── North China  
-│   │   ├── Northeast China  
-│   │   ├── Northwest China  
-│   │   ├── Rest of the world  
-│   │   ├── South China  
-│   │   ├── Southwest China
+![Overview of GTPBD Dataset](img/dataset_structure.png)
 
 # Statistics
 
