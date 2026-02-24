@@ -60,7 +60,7 @@ GTPBD (Global Terraced Parcel and Boundary Dataset) is the first fine-grained be
 * **Transfers**: S → N, G → S, etc.
 * **Methods**: Source Only, FDA, DAFormer, HRDA, PiPa
 
-## Download
+# Download
 
 Hosted on Hugging Face: [GTPBD on Hugging Face](https://huggingface.co/datasets/wxqzzw/GTD)
 
@@ -70,6 +70,16 @@ git clone https://huggingface.co/datasets/wxqzzw/GTD
 
 Croissant metadata is available for NeurIPS submission validation.
 
+# Citation Format
+
+If you find GTPBD useful in your research, please consider citing:
+```
+@inproceedings{zhanggtpbd,
+  title={GTPBD: A Fine-Grained Global Terraced Parcel and Boundary Dataset},
+  author={Zhang, Zhiwei and Ye, Zi and Wen, Yibin and Yuan, Shuai and Fu, Haohuan and Jianxi, Huang and Zheng, Juepeng},
+  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track}
+}
+```
 # Contact & License
 
 * Maintainer: Zhiwei Zhang ([HuggingFace Profile](https://huggingface.co/wxqzzw))
