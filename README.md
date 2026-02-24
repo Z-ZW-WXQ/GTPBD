@@ -74,10 +74,13 @@ Croissant metadata is available for NeurIPS submission validation.
 
 If you find GTPBD useful in your research, please consider citing:
 ```
-@inproceedings{zhanggtpbd,
-  title={GTPBD: A Fine-Grained Global Terraced Parcel and Boundary Dataset},
-  author={Zhang, Zhiwei and Ye, Zi and Wen, Yibin and Yuan, Shuai and Fu, Haohuan and Jianxi, Huang and Zheng, Juepeng},
-  booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track}
+@inproceedings{
+zhang2025gtpbd,
+title={{GTPBD}: A Fine-Grained Global Terraced Parcel and Boundary Dataset},
+author={Zhiwei Zhang and Zi Ye and Yibin Wen and Shuai Yuan and Haohuan Fu and Huang Jianxi and Juepeng Zheng},
+booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+year={2025},
+url={https://openreview.net/forum?id=A3aV30YGqP}
 }
 ```
 # Contact & License
