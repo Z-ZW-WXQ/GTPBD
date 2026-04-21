@@ -70,6 +70,43 @@ git clone https://huggingface.co/datasets/wxqzzw/GTD
 
 Croissant metadata is available for NeurIPS submission validation.
 
+## 🌍 GTPBD-MM (New Multimodal Benchmark)
+We further extend GTPBD to a multi-modal benchmark, named GTPBD-MM (Global Terraced Parcel and Boundary Dataset with Multi-Modality).
+🔍 Overview
+GTPBD-MM is the first unified multimodal benchmark for terraced parcel understanding, integrating:
+🖼️ High-resolution optical imagery (Image)
+🏔️ Digital Elevation Model (DEM)
+📝 Task-oriented textual descriptions (Text)
+All modalities are spatially aligned and support fine-grained learning of:
+Parcel regions (mask)
+Parcel boundaries (edge)
+Parcel instances (parcel-level structure)
+
+## 🚀 Key Features
+Global Coverage:
+Includes terraced regions from 25+ countries, with dense sampling in China (7 geographic divisions)
+Multi-level Annotations:
+Pixel-level (mask)
+Boundary-level (edge)
+Object-level (parcel)
+Multimodal Learning Support:
+Image-only
+Image + Text
+Image + Text + DEM
+Challenging Scenarios:
+Semantic ambiguity (non-parcel vs parcel)
+Terrain-induced boundary complexity
+## 📊 Benchmark Tasks
+GTPBD-MM supports multiple tasks:
+Semantic segmentation
+Boundary detection
+Parcel extraction
+Multimodal reasoning for remote sensing
+## 📥 Download GTPBD-MM
+Hosted on Hugging Face:
+```GTPBD_on_Hugging_Face
+git clone https://huggingface.co/datasets/wxqzzw/GTPBD-MM
+```
 # Citation Format
 
 If you find GTPBD useful in your research, please consider citing:
